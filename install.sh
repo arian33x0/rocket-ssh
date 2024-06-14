@@ -45,7 +45,7 @@ userInputs(){
 }
 
 getAppVersion(){
-    version=$(sudo curl -Ls "https://api.github.com/repos/mahmoud-ap/rocket-ssh/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+    version=$(sudo curl -Ls "https://github.com/arian33x0/rocket-ssh/releases/tag/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
     echo $version;
 }
 
