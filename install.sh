@@ -453,7 +453,7 @@ ENDOFFILE
 installationInfo(){
     clear
     echo -e "\n"
-    bannerText=$(curl -s https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/rocket-banner.txt)
+    bannerText=$(curl -s https://raw.githubusercontent.com/arian33x0/rocket-ssh/master/rocket-banner.txt)
     printf "%s" "$bannerText"
     echo -e "\n"
     printf "Panel Link : $httpProtcol://${ipv4}:$panelPort/login"
@@ -483,7 +483,7 @@ sshPort=$(getSshPort)
 panelPort=$(getPanelPort)
 httpProtcol="http"
 panelPath=$(getPanelPath)
-nethogsLink=https://raw.githubusercontent.com/mahmoud-ap/nethogs-json/master/install.sh
+nethogsLink=https://raw.githubusercontent.com/HamedAp/Nethogs-Json/main/install.sh
 
 checkRoot
 userInputs
